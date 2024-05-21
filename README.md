@@ -14,6 +14,8 @@ Ansible is an open source IT automation tool that automates provisioning, config
 - Orchestration(Large scale automation framework, can integrate with other tool like jenkins, docker)
 
 ### How Ansible connect to remote machines
+![image](https://github.com/kaivalya-tolbande/Ansible-Notes/assets/110324856/6c83a827-d514-41db-9ceb-8fc2c752ee1e)
+
 ![image](https://user-images.githubusercontent.com/69889600/219846350-a0c53ac4-0b2f-4781-ac6c-a5dd512ea649.png)
 
 **Control machine**: A control machine is the central node in an Ansible infrastructure. It is used to manage all the other machines in the network. 
@@ -32,6 +34,9 @@ Inventory file defines the hosts and groups of hosts upon which commands, module
 The file that governs the behavior of all interactions performed by the control node. In Ansible’s case that default configuration file is (ansible.cfg) located in /etc/ansible/ansible.cfg. 
 
 Ansible uses the python module, python script to connect to the target machine. It dumps the python script and execute there and return the output.
+
+![image](https://github.com/kaivalya-tolbande/Ansible-Notes/assets/110324856/6caba4a2-3046-4e42-8937-a59d97931419)
+
 
 ![image](https://user-images.githubusercontent.com/69889600/219847528-a54c5417-127c-4e44-9762-72e4d1a33775.png)
 
